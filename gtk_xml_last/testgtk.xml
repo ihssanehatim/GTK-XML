@@ -1,0 +1,33 @@
+<fenetre title="test des fonctions gtk" type="0"  width="500" height="100" icon="bird.png" resizable="1" nbligne="17" nbcolonne="7" homo="1" scroll="1">
+ <menu nom="menu1">
+			</menu>
+
+<menu nom="menu2">
+				<item type="0" nom="sous menu2"/>
+				<item type="0" nom="Fermer"/>
+				<item type="0" nom="Full-Screen"/>
+</menu>
+<menu nom="menu3">
+				<item type="0" nom="sous menu3"/>
+				<item type="0" nom="Fermer"/>
+</menu>
+<label text="vos connaissances" style="gras" nblignemin="0" nblignemax="1" nbcolonnemin="0" nbcolonnemax="2"/>
+<frame titre="TEST" style="0" nblignemin="" nblignemax="9" nbcolonnemin="0" nbcolonnemax="4" nbligne="1" nbcolonne="">
+	<radioboutton designation="faible" type="1" new="1" nblignemin="1" nblignemax="2" nbcolonnemin="0" nbcolonnemax="1"/>
+	<radioboutton designation="moyen" type="1" new="0" nblignemin="1" nblignemax="2" nbcolonnemin="1" nbcolonnemax="2"/>
+	<radioboutton designation="bien" type="1" new="0" nblignemin="1" nblignemax="2" nbcolonnemin="2" nbcolonnemax="3"/>
+	<radioboutton designation="tres bien" type="1" new="0" nblignemin="1" nblignemax="2" nbcolonnemin="3" nbcolonnemax="4"/>
+</frame>
+<label text="vos commentaires" style="gras" nblignemin="3" nblignemax="4" nbcolonnemin="0" nbcolonnemax="2"/>
+<frame titre="TEST" style="0" nblignemin="" nblignemax="9" nbcolonnemin="0" nbcolonnemax="4" nbligne="1" nbcolonne="">
+	<checkboutton designation="check1" type="1" new="1" nblignemin="1" nblignemax="2" nbcolonnemin="0" nbcolonnemax="1"/>
+	<checkboutton designation="check2" type="1" new="0" nblignemin="1" nblignemax="2" nbcolonnemin="1" nbcolonnemax="2"/>
+	<checkboutton designation="check3" type="1" new="0" nblignemin="1" nblignemax="2" nbcolonnemin="2" nbcolonnemax="3"/>
+	<checkboutton designation="check4" type="1" new="0" nblignemin="1" nblignemax="2" nbcolonnemin="3" nbcolonnemax="4"/>
+</frame>
+<label text="choix date" style="gras" nblignemin="6" nblignemax="7" nbcolonnemin="0" nbcolonnemax="2"/>
+<label text="identifiant" style="gras" nblignemin="9" nblignemax="10" nbcolonnemin="4" nbcolonnemax="5"/>
+<label text="password" style="gras" nblignemin="10" nblignemax="11" nbcolonnemin="4" nbcolonnemax="5"/>
+
+<entry type="" nblignemin="12" nblignemax="13" nbcolonnemin="4" nbcolonnemax="7"/>
+</fenetre>

@@ -1,0 +1,70 @@
+ <fenetre title="Ma feeenetre" type="0" position="0" width="500" height="700" icon="bird.png" resizable="1" nbligne="10" nbcolonne="6" homo="1" scroll="0">
+ 	<note postion="0" scrol="1" nblignemin="0" nblignemax="10" nbcolonnemin="0" nbcolonnemax="6" homo="1">
+ 		<page designation="page1">
+ 			 <menu nom="Fichier">
+				<item type="0" nom="Nouveau"/>
+				<item type="0" nom="Ouvrir"/>
+				<item type="0" nom="Fermer"/>
+				<item type="4"/>
+				<item type="2" nom="Full-Screen"/>
+				<item type="4"/>
+				<item type="3" nom="Theme 1" new="1"/>
+				<item type="3" nom="Theme 2" new="0"/>
+				<item type="3" nom="Theme 3" new="0"/>
+				<item type="4"/>
+				<item type="3" nom="Couleur 1" new="1"/>
+				<item type="3" nom="Couleur 2" new="0"/>
+				<item type="3" nom="Couleur 3" new="0"/>
+				<item type="4"/>
+				<item type="0" nom="Quitter"/>
+			</menu>
+			<menu nom="Outils">
+				<item type="0" nom="Nouveau"/>
+			</menu>
+			<menu nom="aide">
+				<item type="0" nom="Nouveau"/>
+			</menu>
+
+			<boutton designation="Boutton1" type="7" nblignemin="1" nblignemax="2" nbcolonnemin="2" nbcolonnemax="3"/>
+			<boutton designation="Boutton2" type="6" nblignemin="1" nblignemax="2" nbcolonnemin="3" nbcolonnemax="4"/>
+
+			<chekboutton designation="Français" type="1" nblignemin="2" nblignemax="3" nbcolonnemin="2" nbcolonnemax="3"/>
+			<chekboutton designation="Arabe" type="1" nblignemin="2" nblignemax="3" nbcolonnemin="3" nbcolonnemax="4"/>
+
+			<radioboutton designation="Femme" type="1" new="1" nblignemin="3" nblignemax="4" nbcolonnemin="1" nbcolonnemax="2"/>
+			<radioboutton designation="Homme" type="1" new="0" nblignemin="3" nblignemax="4" nbcolonnemin="3" nbcolonnemax="4"/>
+			<radioboutton designation="autre" type="1" new="0" nblignemin="3" nblignemax="4" nbcolonnemin="5" nbcolonnemax="6"/>
+
+			<label text="ma label" style="gras"  aligenement="2" nblignemin="5" nblignemax="6" nbcolonnemin="0" nbcolonnemax="2"/>
+			<image path="oiseau.jpg" nblignemin="4" nblignemax="6" nbcolonnemin="3" nbcolonnemax="5"/>
+ 		</page>
+ 		<page designation="page2">
+			<menu nom="hello">
+					<item type="0" nom="Nouveau"/>
+					<item type="0" nom="Ouvrir"/>
+					<item type="0" nom="Fermer"/>
+					<item type="4"/>
+					<item type="2" nom="Full-Screen"/>
+					<item type="4"/>
+					<item type="3" nom="Theme 1" new="1"/>
+					<item type="3" nom="Theme 2" new="0"/>
+					<item type="3" nom="Theme 3" new="0"/>
+					<item type="4"/>
+					<item type="3" nom="Couleur 1" new="1"/>
+					<item type="3" nom="Couleur 2" new="0"/>
+					<item type="3" nom="Couleur 3" new="0"/>
+					<item type="4"/>
+					<item type="0" nom="Quitter"/>
+			</menu>
+			<menu nom="Outils">
+				<item type="0" nom="Nouveau"/>
+				<item type="4"/>
+				<item type="3" nom="Theme 1" new="1"/>
+				<item type="3" nom="Theme 2" new="0"/>
+				<item type="3" nom="Theme 3" new="0"/>
+			</menu>
+ 			<boutton designation="BTN2" type="1" nblignemin="2" nblignemax="3" nbcolonnemin="3" nbcolonnemax="4"/>
+ 		</page>
+ 	</note>
+ 	
+</fenetre>

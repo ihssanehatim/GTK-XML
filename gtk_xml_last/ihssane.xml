@@ -1,0 +1,42 @@
+<fenetre icon="bird.png" nbligne="5" nbcolonne="4" background="3" width="500" height="400" >
+<label text="hello" style="big"  nblignemax="1" nblignemin="0" nbcolonnemin="0" nbcolonnemax="2" expand="2" />
+<chekboutton designation="my but" type="1" nblignemax="2" nblignemin="1" nbcolonnemin="0" nbcolonnemax="1" />
+<chekboutton designation="hello" type="2" nblignemax="2" nblignemin="1" nbcolonnemin="1" nbcolonnemax="2" />
+<radioboutton new="1" designation="radio1" type="1" nblignemax="3" nblignemin="2" nbcolonnemin="0" nbcolonnemax="1" />
+<radioboutton new="0" designation="radio2" type="1" nblignemax="3" nblignemin="2" nbcolonnemin="1" nbcolonnemax="2" />
+ 			 <menu nom="Fichier">
+				<item type="0" nom="Nouveau"/>
+				<item type="0" nom="Ouvrir"/>
+				<item type="0" nom="Fermer"/>
+				<item type="4"/>
+				<item type="2" nom="Full-Screen"/>
+				<item type="4"/>
+				<item type="3" nom="Theme 1" new="1"/>
+				<item type="3" nom="Theme 2" new="0"/>
+				<item type="3" nom="Theme 3" new="0"/>
+				<item type="4"/>
+				<item type="3" nom="Couleur 1" new="1"/>
+				<item type="3" nom="Couleur 2" new="0"/>
+				<item type="3" nom="Couleur 3" new="0"/>
+				<item type="4"/>
+				<item type="0" nom="Quitter"/>
+			</menu>
+			<menu nom="Outils">
+				<item type="0" nom="Nouveau"/>
+			</menu>
+			<menu nom="aide">
+				<item type="0" nom="Nouveau"/>
+			</menu>
+<boutton designation="BD1" type="1" nblignemin="4" nblignemax="5" nbcolonnemin="3" nbcolonnemax="4" signal="2">
+		<boite_dialogue nom="Tst bd" type="1" nbrc="6" nbrl="7">
+			<boutton name="ok" type="1"/>
+			<boutton name="no" type="2"/>
+			<label text="ma label" style="gras"  aligenement="2" nblignemin="0" nblignemax="1" nbcolonnemin="1" nbcolonnemax="2"/>
+			<chekboutton designation="Français" type="1" nblignemin="0" nblignemax="1" nbcolonnemin="0" nbcolonnemax="1"/>
+			<chekboutton designation="Arabe" type="1" nblignemin="0" nblignemax="1" nbcolonnemin="2" nbcolonnemax="3"/>
+			<image path="oiseau.jpg" nblignemin="1" nblignemax="4" nbcolonnemin="0" nbcolonnemax="4"/>
+			<zone nblignemin="4" nblignemax="6" nbcolonnemin="0" nbcolonnemax="4" expand="1"/>
+			<chekboutton designation="Arabe" type="1" nblignemin="6" nblignemax="7" nbcolonnemin="2" nbcolonnemax="3"/>
+		</boite_dialogue>
+</boutton>
+</fenetre>

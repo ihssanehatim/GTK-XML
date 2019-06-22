@@ -1,0 +1,7 @@
+<fenetre resizable="1" nbligne="10" nbcolonne="6" homo="1">
+<boutton designation="BTN1" type="1" nblignemin="1" nblignemax="2" nbcolonnemin="3" nbcolonnemax="4" signal="1">
+		<fenetre  resizable="1" nbligne="10" nbcolonne="6" homo="1">
+
+		</fenetre>
+	</boutton>
+</fenetre>

@@ -1,0 +1,109 @@
+<fenetre title="Ma feeenetre" type="0" position="0" width="1000" height="700" icon="bird.png" background="2" resizable="1" nbligne="10" nbcolonne="10" homo="1">
+	<menu nom="Fichier">
+		<item nom="open" type="0"/>
+		<item nom="save" type="0"/>
+		<item type="4"/>
+		<item nom="homme" new="1" type="3"/>
+		<item nom="femme" new="0" type="3"/>
+		<item nom="autre" new="0" type="3"/>
+		<item type="5"/>
+	</menu>
+	<label text="ma label" style="gras"  aligenement="2" nblignemin="1" nblignemax="2" nbcolonnemin="0" nbcolonnemax="2"/>
+	<entry max="10" type="0" nblignemin="1" nblignemax="2" nbcolonnemin="3" nbcolonnemax="6"/>
+	<combobox nblignemin="1" nblignemax="2" nbcolonnemin="7" nbcolonnemax="10">
+		<item designation="C++"/>
+		<item designation="JAVA"/>
+		<item designation="PHP"/>
+	</combobox>
+	<frame titre="Radio/check" style="0" nblignemin="4" nblignemax="7" nbcolonnemin="1" nbcolonnemax="3" nbligne="4" nbcolonne="3">
+		<radioboutton type="1" designation="salarié" new="1" nblignemin="0" nblignemax="1" nbcolonnemin="0" nbcolonnemax="3"/>
+		<radioboutton type="1" designation="non salarié" new="0" nblignemin="1" nblignemax="2" nbcolonnemin="0" nbcolonnemax="3"/>
+		<chekboutton designation="Français" type="1" nblignemin="2" nblignemax="3" nbcolonnemin="0" nbcolonnemax="3"/>
+		<chekboutton designation="Arabe" type="1" nblignemin="3" nblignemax="4" nbcolonnemin="0" nbcolonnemax="3"/>
+	</frame>
+	<image path="oiseau.jpg" nblignemin="4" nblignemax="7" nbcolonnemin="3" nbcolonnemax="6"/>
+	<frame titre="Bouton" style="1" nblignemin="4" nblignemax="7" nbcolonnemin="7" nbcolonnemax="10" nbligne="4" nbcolonne="3">
+		<boutton designation="signal fenetre" type="1" nblignemin="0" nblignemax="1" nbcolonnemin="0" nbcolonnemax="3" signal="1">
+			<fenetre title="Ma fe" type="0" position="0" width="500" height="500" icon="bird.png" resizable="1" nbligne="10" nbcolonne="6" homo="1">
+			<note postion="0" scrol="1" nblignemin="0" nblignemax="10" nbcolonnemin="0" nbcolonnemax="6" homo="1">
+ 		<page designation="page1">
+ 			 <menu nom="Fichier">
+				<item type="0" nom="Nouveau"/>
+				<item type="0" nom="Ouvrir"/>
+				<item type="0" nom="Fermer"/>
+				<item type="4"/>
+				<item type="2" nom="Full-Screen"/>
+				<item type="4"/>
+				<item type="3" nom="Theme 1" new="1"/>
+				<item type="3" nom="Theme 2" new="0"/>
+				<item type="3" nom="Theme 3" new="0"/>
+				<item type="4"/>
+				<item type="3" nom="Couleur 1" new="1"/>
+				<item type="3" nom="Couleur 2" new="0"/>
+				<item type="3" nom="Couleur 3" new="0"/>
+				<item type="4"/>
+				<item type="0" nom="Quitter"/>
+			</menu>
+			<menu nom="Outils">
+				<item type="0" nom="Nouveau"/>
+			</menu>
+			<menu nom="aide">
+				<item type="0" nom="Nouveau"/>
+			</menu>
+
+			<boutton designation="Boutton1" type="7" nblignemin="1" nblignemax="2" nbcolonnemin="2" nbcolonnemax="3"/>
+			<boutton designation="Boutton2" type="6" nblignemin="1" nblignemax="2" nbcolonnemin="3" nbcolonnemax="4"/>
+
+			<chekboutton designation="Français" type="1" nblignemin="2" nblignemax="3" nbcolonnemin="2" nbcolonnemax="3"/>
+			<chekboutton designation="Arabe" type="1" nblignemin="2" nblignemax="3" nbcolonnemin="3" nbcolonnemax="4"/>
+
+			<radioboutton designation="Femme" type="1" new="1" nblignemin="3" nblignemax="4" nbcolonnemin="1" nbcolonnemax="2"/>
+			<radioboutton designation="Homme" type="1" new="0" nblignemin="3" nblignemax="4" nbcolonnemin="3" nbcolonnemax="4"/>
+			<radioboutton designation="autre" type="1" new="0" nblignemin="3" nblignemax="4" nbcolonnemin="5" nbcolonnemax="6"/>
+
+			<label text="ma label" style="gras"  aligenement="2" nblignemin="5" nblignemax="6" nbcolonnemin="0" nbcolonnemax="2"/>
+			<image path="oiseau.jpg" nblignemin="4" nblignemax="6" nbcolonnemin="3" nbcolonnemax="5"/>
+ 		</page>
+ 		<page designation="page2">
+			<menu nom="hello">
+					<item type="0" nom="Nouveau"/>
+					<item type="0" nom="Ouvrir"/>
+					<item type="0" nom="Fermer"/>
+					<item type="4"/>
+					<item type="2" nom="Full-Screen"/>
+					<item type="4"/>
+					<item type="3" nom="Theme 1" new="1"/>
+					<item type="3" nom="Theme 2" new="0"/>
+					<item type="3" nom="Theme 3" new="0"/>
+					<item type="4"/>
+					<item type="3" nom="Couleur 1" new="1"/>
+					<item type="3" nom="Couleur 2" new="0"/>
+					<item type="3" nom="Couleur 3" new="0"/>
+					<item type="4"/>
+					<item type="0" nom="Quitter"/>
+			</menu>
+			<menu nom="Outils">
+				<item type="0" nom="Nouveau"/>
+				<item type="4"/>
+				<item type="3" nom="Theme 1" new="1"/>
+				<item type="3" nom="Theme 2" new="0"/>
+				<item type="3" nom="Theme 3" new="0"/>
+			</menu>
+ 			<boutton designation="BTN2" type="10" nblignemin="2" nblignemax="3" nbcolonnemin="3" nbcolonnemax="4"/>
+ 		</page>
+ 	</note>
+		</fenetre>
+		</boutton>
+		<boutton designation="boite de  dialog" type="1" nblignemin="1" nblignemax="2" nbcolonnemin="0" nbcolonnemax="3" signal="2">
+			<boite_dialogue nom="modal" type="1" nbrc="4" nbrl="3">
+				<boutton name= "OK" type= "" />
+			</boite_dialogue>
+		</boutton>
+		<boutton designation="oiseau.jpg" type="0" nblignemin="2" nblignemax="3" nbcolonnemin="0" nbcolonnemax="3" signal="3">
+			<boite_message message="hello" type="2"/>
+		</boutton>
+	</frame>
+	<scale min="10" max="80" step="1" type="1" label="0" pos_label="3" nblignemin="8" nblignemax="9" nbcolonnemin="3" nbcolonnemax="6" />
+	<zone nblignemin="8" nblignemax="10" nbcolonnemin="7" nbcolonnemax="10" />
+	
+</fenetre>
